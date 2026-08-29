@@ -4,7 +4,7 @@
 
 **Software Engineering · SaaS · AI Agents · Full Stack · DevOps**
 
-Construo e evoluo produtos digitais conectando **produto, arquitetura, código, dados, infraestrutura e operação**.
+Construo e evoluo produtos digitais conectando **produto, arquitetura, código, dados, segurança, infraestrutura e operação**.
 
 ```text
 REQUIREMENTS → ARCHITECTURE → BUILD → TEST → REVIEW → SHIP → OBSERVE → IMPROVE
@@ -15,10 +15,9 @@ REQUIREMENTS → ARCHITECTURE → BUILD → TEST → REVIEW → SHIP → OBSERVE
 Foco atual:
 
 - SaaS multi-tenant;
-- AI Agents, RAG, tools, guardrails e automação;
+- AI Agents, RAG, tools, MCP e guardrails;
+- GitHub Apps, webhooks e automação de engenharia;
 - CRM, agenda e atendimento omnichannel;
-- WhatsApp / Instagram e integrações;
-- APIs e sistemas orientados a eventos;
 - Next.js / React / TypeScript;
 - Node.js e Python;
 - PostgreSQL / Supabase / Redis;
@@ -30,17 +29,28 @@ Foco atual:
 
 <p align="center"><img src="./assets/stack-map.svg" alt="Engineering stack" width="100%" /></p>
 
-> **Python backend está em evolução contínua**, com Django/DRF e FastAPI aplicados a APIs, autenticação, services, testes e OpenAPI.
+## Verified Builds
+
+<p align="center">
+<a href="https://github.com/Videirafo/Fernando_Videira/actions/workflows/portfolio-quality.yml"><img src="https://github.com/Videirafo/Fernando_Videira/actions/workflows/portfolio-quality.yml/badge.svg?branch=main" alt="Portfolio Quality" /></a>
+<a href="https://github.com/Videirafo/Fernando_Videira/actions/workflows/repo-health-auditor.yml"><img src="https://github.com/Videirafo/Fernando_Videira/actions/workflows/repo-health-auditor.yml/badge.svg?branch=main" alt="Repo Health Auditor" /></a>
+<a href="https://github.com/Videirafo/Fernando_Videira/actions/workflows/repoguard-github-app.yml"><img src="https://github.com/Videirafo/Fernando_Videira/actions/workflows/repoguard-github-app.yml/badge.svg?branch=main" alt="RepoGuard GitHub App" /></a>
+<a href="https://github.com/Videirafo/Fernando_Videira/actions/workflows/mcp-policy-firewall.yml"><img src="https://github.com/Videirafo/Fernando_Videira/actions/workflows/mcp-policy-firewall.yml/badge.svg?branch=main" alt="MCP Policy Firewall" /></a>
+<a href="https://github.com/Videirafo/Fernando_Videira/actions/workflows/tenant-isolation-verifier.yml"><img src="https://github.com/Videirafo/Fernando_Videira/actions/workflows/tenant-isolation-verifier.yml/badge.svg?branch=main" alt="Tenant Isolation Verifier" /></a>
+</p>
+
+Esses badges são o estado real dos workflows públicos na branch `main`, não imagens estáticas de pontuação.
 
 ## O que eu construo
 
 | Área | Aplicação |
 |---|---|
-| **SaaS** | multi-tenancy, onboarding, permissões, catálogo, billing e auditoria |
-| **AI Agents** | RAG, tools, guardrails, memória, handoff, avaliação e observabilidade |
-| **CRM & Messaging** | agenda, leads, WhatsApp, Instagram, inbox e automações |
-| **Backend** | APIs, autenticação, autorização, dados e integrações |
+| **SaaS** | multi-tenancy, onboarding, permissões, billing e isolamento |
+| **AI Agents** | RAG, tools, MCP, guardrails, memória, handoff e evals |
+| **GitHub Engineering** | Apps, REST API, webhooks, CI e PR automation |
+| **CRM & Messaging** | agenda, leads, WhatsApp, Instagram e automações |
 | **Architecture** | requisitos, UML, C4, BPMN, ADRs e contratos |
+| **Security** | tenant isolation, BOLA tests, policy enforcement e secrets hygiene |
 | **DevOps** | VPS, Docker, Nginx, CI/CD, backup, rollback e monitoramento |
 
 ## Projetos em destaque
@@ -50,24 +60,24 @@ Foco atual:
 <td width="50%" valign="top">
 <a href="https://github.com/Videirafo/SaaS-Engineering-Playbook"><img src="https://raw.githubusercontent.com/Videirafo/SaaS-Engineering-Playbook/main/assets/banner.svg" alt="SaaS Engineering Playbook" width="100%" /></a>
 <br/><strong>SaaS Engineering Playbook</strong><br/>
-Manual de engenharia para multi-tenancy, segurança, APIs, testes, observabilidade e produção.
+Multi-tenancy, segurança, APIs, testes, observabilidade e um dashboard Next.js executável.
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/Videirafo/AI-Agent-Production-Checklist"><img src="https://raw.githubusercontent.com/Videirafo/AI-Agent-Production-Checklist/main/assets/banner.svg" alt="AI Agent Production Checklist" width="100%" /></a>
 <br/><strong>AI Agent Production Checklist</strong><br/>
-Checklist de produção para guardrails, tools, RAG, evals, tracing, approvals e incident response.
+Guardrails, tools, RAG, evals, tracing, approvals e uma Safe Agent API executável.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/Videirafo/System-Modeling-Starter"><img src="https://raw.githubusercontent.com/Videirafo/System-Modeling-Starter/main/assets/banner.svg" alt="System Modeling Starter" width="100%" /></a>
 <br/><strong>System Modeling Starter</strong><br/>
-Starter para requirements, UML, BPMN, C4, ERD, ADR, OpenAPI, AsyncAPI e rastreabilidade.
+Requirements, UML, BPMN, C4, ADR, OpenAPI, AsyncAPI e sistema de referência executável.
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/Videirafo/Fernando_Videira"><img src="https://raw.githubusercontent.com/Videirafo/Fernando_Videira/main/assets/banner.svg" alt="Fernando Videira Engineering Portfolio" width="100%" /></a>
-<br/><strong>Engineering Portfolio & Knowledge Base</strong><br/>
-Skills, arquitetura, modelagem, AI Engineering, backend, frontend, produção e GitHub Growth.
+<a href="https://github.com/Videirafo/Fernando_Videira"><img src="https://raw.githubusercontent.com/Videirafo/Fernando_Videira/main/assets/banner.svg" alt="Engineering Portfolio" width="100%" /></a>
+<br/><strong>Engineering Portfolio & Labs</strong><br/>
+Knowledge base + projetos de GitHub API, GitHub Apps, MCP security e SaaS security.
 </td>
 </tr>
 </table>
@@ -76,47 +86,40 @@ Skills, arquitetura, modelagem, AI Engineering, backend, frontend, produção e 
 
 <p align="center"><img src="./assets/clone-build.svg" alt="Clone Build Test Contribute workflow" width="100%" /></p>
 
-Os repositórios técnicos incluem exemplos feitos para serem **clonados, abertos no VS Code, executados localmente, testados e evoluídos via Git**.
+| Projeto | Stack | O que prova |
+|---|---|---|
+| [SaaS Tenant Dashboard](https://github.com/Videirafo/SaaS-Engineering-Playbook/tree/main/examples/saas-tenant-dashboard) | Next.js · React · TypeScript | tenant routing + build |
+| [Safe Agent API](https://github.com/Videirafo/AI-Agent-Production-Checklist/tree/main/examples/safe-agent-api) | FastAPI · pytest | policy + approval + tenant isolation |
+| [Booking Reference System](https://github.com/Videirafo/System-Modeling-Starter/tree/main/examples/booking-reference-system) | FastAPI · Mermaid | requisito → API → teste |
+| [GitHub Repo Health Auditor](https://github.com/Videirafo/Fernando_Videira/tree/main/projects/github-repo-health-auditor) | Python · GitHub REST API | repo audit + reports |
+| [RepoGuard GitHub App](https://github.com/Videirafo/Fernando_Videira/tree/main/projects/repoguard-github-app) | Node.js · GitHub Apps | webhooks + HMAC + app auth |
+| [MCP Policy Firewall Lab](https://github.com/Videirafo/Fernando_Videira/tree/main/projects/mcp-policy-firewall-lab) | Node.js · JSON-RPC | default-deny tool policy |
+| [Tenant Isolation Verifier](https://github.com/Videirafo/Fernando_Videira/tree/main/projects/tenant-isolation-verifier) | Node.js · local API | BOLA/cross-tenant detection |
 
-| Projeto executável | Stack | Evidência de CI | Abrir |
-|---|---|---|---|
-| **SaaS Tenant Dashboard** | Next.js 16.3.3 · React 19.2.8 · TypeScript | typecheck + production build | [Projeto](https://github.com/Videirafo/SaaS-Engineering-Playbook/tree/main/examples/saas-tenant-dashboard) |
-| **Safe Agent API** | Python 3.12 · FastAPI 0.141.1 · pytest | testes de policy, approval e tenant isolation | [Projeto](https://github.com/Videirafo/AI-Agent-Production-Checklist/tree/main/examples/safe-agent-api) |
-| **Booking Reference System** | Python 3.12 · FastAPI 0.141.1 · pytest | requisitos → regra → API → testes | [Projeto](https://github.com/Videirafo/System-Modeling-Starter/tree/main/examples/booking-reference-system) |
-
-### Fluxo rápido
-
-```bash
-git clone https://github.com/Videirafo/SaaS-Engineering-Playbook.git
-cd SaaS-Engineering-Playbook/examples/saas-tenant-dashboard
-code .
+```text
+git clone → code . → Run/Debug → tests → branch → commit → push → Pull Request
 ```
 
-Cada exemplo possui README próprio com setup para Windows/Linux/macOS, comandos de validação e fluxo de branch → commit → push → Pull Request.
-
 ## Knowledge Base
-
-Desenvolvo e mantenho sistemas reutilizáveis de engenharia:
 
 - **VIDEIRA OMEGA STUDIO OS** — sistema operacional mestre de projetos;
 - **SYSTEM-MODELING-2026** — requisitos, UML, BPMN, C4, ERD e ADR;
 - **PY-BACKEND-2026** — Django, FastAPI, APIs, segurança e testes;
-- **GITHUB-PRO-2026** — GitHub Flow, portfólio e qualidade de repositório;
-- **AI Agent Engineering** — agentes, RAG, GraphRAG, MCP/A2A e guardrails;
-- **Execution & Project Memory** — Project Studio, COHI, PM26 e memória de projeto;
+- **GITHUB-PRO-2026** — GitHub Flow, portfólio e qualidade;
+- **AI Agent Engineering** — RAG, GraphRAG, MCP/A2A, guardrails e evals;
+- **Execution & Project Memory** — Project Studio, COHI, PM26 e memória;
 - **Frontend Product Experience** — UI/UX, mobile, acessibilidade e performance;
 - **VPS & Production Engineering** — deploy, backup, rollback e observabilidade;
-- **Game Studio Mobile** — arquitetura, gameplay, save, economia e publicação.
+- **Game Studio Mobile** — arquitetura, gameplay, save e publicação.
 
-### [Abrir a base completa de conhecimento →](https://github.com/Videirafo/Fernando_Videira/tree/main/skills)
+### [Abrir base completa e projetos →](https://github.com/Videirafo/Fernando_Videira)
 
-## Princípios de execução
+## Princípios
 
 ```text
 Inspect before changing
 Small reversible changes
 Issue → Branch → Pull Request
-Code and documentation evolve together
 Security by design
 Tests for critical behavior
 Observability before incidents
@@ -125,16 +128,14 @@ Backup and rollback before risky changes
 
 ## Open Source & evolução
 
-Objetivos públicos:
-
-- criar projetos úteis que outras pessoas consigam executar e reutilizar;
-- contribuir com documentação, testes e correções em projetos open source;
+- criar software útil que outras pessoas consigam clonar e executar;
 - manter CI e segurança visíveis;
-- evoluir achievements como consequência de colaboração real, sem farming artificial.
+- contribuir com correções, testes e documentação em projetos reais;
+- evoluir achievements como consequência de trabalho e colaboração reais, sem farming artificial.
 
 ## Segurança e privacidade
 
-Os repositórios públicos não devem conter senhas, tokens, `.env` reais, chaves privadas, IPs internos sensíveis, dados de clientes, conversas privadas ou código proprietário de projetos privados.
+Nenhum repositório público deve conter senhas, tokens, `.env` reais, private keys, IPs/endpoints internos sensíveis, dados de clientes, conversas privadas ou código proprietário.
 
 ---
 
@@ -142,6 +143,6 @@ Os repositórios públicos não devem conter senhas, tokens, `.env` reais, chave
 
 **Build · Test · Ship · Observe · Improve**
 
-`Software Engineering` · `SaaS` · `AI Agents` · `Architecture` · `DevOps`
+`Software Engineering` · `SaaS` · `AI Agents` · `GitHub Apps` · `Security` · `DevOps`
 
 </div>
