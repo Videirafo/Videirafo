@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+  <title id="title">Clone Build Test Contribute</title>
+  <desc id="desc">Visual showing the public project workflow from GitHub clone to VS Code, build, tests and pull request.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#102b44"/>
+    </linearGradient>
+    <style>
+      .title{font:700 30px Arial,sans-serif;fill:#f4fbff}.sub{font:400 15px Arial,sans-serif;fill:#a9bdca}.box{fill:#0d1b2a;stroke:#244963;stroke-width:2}.label{font:700 16px Arial,sans-serif;fill:#eef9ff}.mini{font:400 12px Arial,sans-serif;fill:#91a9b9}.arrow{stroke:#35e6c1;stroke-width:3;fill:none;marker-end:url(#a)}
+    </style>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#35e6c1"/></marker>
+  </defs>
+  <rect width="1200" height="230" rx="24" fill="url(#bg)"/>
+  <text x="50" y="52" class="title">Clone → Open → Build → Test → Contribute</text>
+  <text x="50" y="80" class="sub">Projetos públicos preparados para VS Code e Git, com CI verificando execução real.</text>
+  <rect x="50" y="112" width="190" height="78" rx="16" class="box"/><text x="75" y="143" class="label">GitHub</text><text x="75" y="166" class="mini">git clone / Download ZIP</text>
+  <path d="M250 151 H315" class="arrow"/>
+  <rect x="325" y="112" width="190" height="78" rx="16" class="box"/><text x="350" y="143" class="label">VS Code</text><text x="350" y="166" class="mini">code . / edit / debug</text>
+  <path d="M525 151 H590" class="arrow"/>
+  <rect x="600" y="112" width="190" height="78" rx="16" class="box"/><text x="625" y="143" class="label">Build & Tests</text><text x="625" y="166" class="mini">Next build / pytest</text>
+  <path d="M800 151 H865" class="arrow"/>
+  <rect x="875" y="112" width="275" height="78" rx="16" class="box"/><text x="900" y="143" class="label">Git Flow</text><text x="900" y="166" class="mini">branch → commit → push → Pull Request</text>
+</svg>
