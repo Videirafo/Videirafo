@@ -72,6 +72,28 @@ Skills, arquitetura, modelagem, AI Engineering, backend, frontend, produção e 
 </tr>
 </table>
 
+## Clone & Build · projetos executáveis
+
+<p align="center"><img src="./assets/clone-build.svg" alt="Clone Build Test Contribute workflow" width="100%" /></p>
+
+Os repositórios técnicos incluem exemplos feitos para serem **clonados, abertos no VS Code, executados localmente, testados e evoluídos via Git**.
+
+| Projeto executável | Stack | Evidência de CI | Abrir |
+|---|---|---|---|
+| **SaaS Tenant Dashboard** | Next.js 16.3.3 · React 19.2.8 · TypeScript | typecheck + production build | [Projeto](https://github.com/Videirafo/SaaS-Engineering-Playbook/tree/main/examples/saas-tenant-dashboard) |
+| **Safe Agent API** | Python 3.12 · FastAPI 0.141.1 · pytest | testes de policy, approval e tenant isolation | [Projeto](https://github.com/Videirafo/AI-Agent-Production-Checklist/tree/main/examples/safe-agent-api) |
+| **Booking Reference System** | Python 3.12 · FastAPI 0.141.1 · pytest | requisitos → regra → API → testes | [Projeto](https://github.com/Videirafo/System-Modeling-Starter/tree/main/examples/booking-reference-system) |
+
+### Fluxo rápido
+
+```bash
+git clone https://github.com/Videirafo/SaaS-Engineering-Playbook.git
+cd SaaS-Engineering-Playbook/examples/saas-tenant-dashboard
+code .
+```
+
+Cada exemplo possui README próprio com setup para Windows/Linux/macOS, comandos de validação e fluxo de branch → commit → push → Pull Request.
+
 ## Knowledge Base
 
 Desenvolvo e mantenho sistemas reutilizáveis de engenharia:
