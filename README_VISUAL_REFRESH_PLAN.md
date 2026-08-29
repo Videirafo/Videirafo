@@ -1,1 +1,0 @@
-Pending visual refresh via pull request.
