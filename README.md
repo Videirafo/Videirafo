@@ -33,13 +33,14 @@ Foco atual:
 
 <p align="center">
 <a href="https://github.com/Videirafo/Fernando_Videira/actions/workflows/portfolio-quality.yml"><img src="https://github.com/Videirafo/Fernando_Videira/actions/workflows/portfolio-quality.yml/badge.svg?branch=main" alt="Portfolio Quality" /></a>
+<a href="https://github.com/Videirafo/Fernando_Videira/actions/workflows/codeql-security.yml"><img src="https://github.com/Videirafo/Fernando_Videira/actions/workflows/codeql-security.yml/badge.svg?branch=main" alt="CodeQL Security" /></a>
 <a href="https://github.com/Videirafo/Fernando_Videira/actions/workflows/repo-health-auditor.yml"><img src="https://github.com/Videirafo/Fernando_Videira/actions/workflows/repo-health-auditor.yml/badge.svg?branch=main" alt="Repo Health Auditor" /></a>
 <a href="https://github.com/Videirafo/Fernando_Videira/actions/workflows/repoguard-github-app.yml"><img src="https://github.com/Videirafo/Fernando_Videira/actions/workflows/repoguard-github-app.yml/badge.svg?branch=main" alt="RepoGuard GitHub App" /></a>
 <a href="https://github.com/Videirafo/Fernando_Videira/actions/workflows/mcp-policy-firewall.yml"><img src="https://github.com/Videirafo/Fernando_Videira/actions/workflows/mcp-policy-firewall.yml/badge.svg?branch=main" alt="MCP Policy Firewall" /></a>
 <a href="https://github.com/Videirafo/Fernando_Videira/actions/workflows/tenant-isolation-verifier.yml"><img src="https://github.com/Videirafo/Fernando_Videira/actions/workflows/tenant-isolation-verifier.yml/badge.svg?branch=main" alt="Tenant Isolation Verifier" /></a>
 </p>
 
-Esses badges são o estado real dos workflows públicos na branch `main`, não imagens estáticas de pontuação.
+Esses badges são o estado real dos workflows públicos na branch `main`. O `CodeQL Security` executa code scanning de JavaScript/TypeScript e Python com queries `security-extended`; não são imagens estáticas de pontuação.
 
 ## O que eu construo
 
@@ -50,7 +51,7 @@ Esses badges são o estado real dos workflows públicos na branch `main`, não i
 | **GitHub Engineering** | Apps, REST API, webhooks, CI e PR automation |
 | **CRM & Messaging** | agenda, leads, WhatsApp, Instagram e automações |
 | **Architecture** | requisitos, UML, C4, BPMN, ADRs e contratos |
-| **Security** | tenant isolation, BOLA tests, policy enforcement e secrets hygiene |
+| **Security** | CodeQL, tenant isolation, BOLA tests, policy enforcement e secrets hygiene |
 | **DevOps** | VPS, Docker, Nginx, CI/CD, backup, rollback e monitoramento |
 
 ## Projetos em destaque
@@ -129,7 +130,7 @@ Backup and rollback before risky changes
 ## Open Source & evolução
 
 - criar software útil que outras pessoas consigam clonar e executar;
-- manter CI e segurança visíveis;
+- manter CI, CodeQL e segurança visíveis;
 - contribuir com correções, testes e documentação em projetos reais;
 - evoluir achievements como consequência de trabalho e colaboração reais, sem farming artificial.
 
