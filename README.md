@@ -56,6 +56,12 @@ REQUIREMENTS → ARCHITECTURE → BUILD → TEST → REVIEW → SHIP → OBSERVE
 ### [SaaS Engineering Playbook](https://github.com/Videirafo/SaaS-Engineering-Playbook)
 Manual aberto de engenharia para projetar, construir, testar e operar produtos SaaS com foco em multi-tenancy, segurança, APIs, dados, CI/CD e observabilidade.
 
+### [AI Agent Production Checklist](https://github.com/Videirafo/AI-Agent-Production-Checklist)
+Checklist técnico para agentes de IA em produção: guardrails, tool policies, threat modeling, RAG/memória, evals, observabilidade, approvals e incident response.
+
+### [System Modeling Starter](https://github.com/Videirafo/System-Modeling-Starter)
+Starter para requirements, UML, BPMN, C4, ERD, ADR, rastreabilidade, OpenAPI e AsyncAPI, com exemplos e templates reutilizáveis.
+
 ### [Fernando_Videira — Engineering Portfolio & Knowledge Base](https://github.com/Videirafo/Fernando_Videira)
 Portfólio técnico aprofundado com skills, arquitetura, modelagem, AI Engineering, backend, frontend, produção e evolução GitHub/open source.
 
