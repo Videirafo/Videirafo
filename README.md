@@ -10,6 +10,20 @@ Construo e evoluo produtos digitais conectando **produto, arquitetura, código, 
 REQUIREMENTS → ARCHITECTURE → BUILD → TEST → REVIEW → SHIP → OBSERVE → IMPROVE
 ```
 
+## Comece pelos projetos executáveis
+
+| Projeto | Build público | O que demonstra |
+|---|---|---|
+| **[AI Agent Production Checklist](https://github.com/Videirafo/AI-Agent-Production-Checklist)** | [![Safe Agent API](https://github.com/Videirafo/AI-Agent-Production-Checklist/actions/workflows/example-safe-agent.yml/badge.svg?branch=main)](https://github.com/Videirafo/AI-Agent-Production-Checklist/actions/workflows/example-safe-agent.yml) | policy → approval → execution → audit → correlation, tenant isolation, FastAPI, pytest, Docker |
+| **[SaaS Engineering Playbook](https://github.com/Videirafo/SaaS-Engineering-Playbook)** | [![SaaS Starter](https://github.com/Videirafo/SaaS-Engineering-Playbook/actions/workflows/example-saas.yml/badge.svg?branch=main)](https://github.com/Videirafo/SaaS-Engineering-Playbook/actions/workflows/example-saas.yml) | Next.js, React, TypeScript, multi-tenancy, health check, production build, Docker |
+
+<p align="center">
+  <a href="https://github.com/Videirafo/AI-Agent-Production-Checklist"><img alt="AI Agent stars" src="https://img.shields.io/github/stars/Videirafo/AI-Agent-Production-Checklist?style=social"></a>
+  <a href="https://github.com/Videirafo/SaaS-Engineering-Playbook"><img alt="SaaS Playbook stars" src="https://img.shields.io/github/stars/Videirafo/SaaS-Engineering-Playbook?style=social"></a>
+</p>
+
+Os dois projetos são **MIT**, têm CI/CodeQL visíveis e podem ser executados localmente sem credenciais privadas. Issues, testes e contribuições úteis são bem-vindos.
+
 ## Engenharia
 
 Foco atual:
@@ -66,7 +80,7 @@ Multi-tenancy, segurança, APIs, testes, observabilidade e um dashboard Next.js 
 <td width="50%" valign="top">
 <a href="https://github.com/Videirafo/AI-Agent-Production-Checklist"><img src="https://raw.githubusercontent.com/Videirafo/AI-Agent-Production-Checklist/main/assets/banner.svg" alt="AI Agent Production Checklist" width="100%" /></a>
 <br/><strong>AI Agent Production Checklist</strong><br/>
-Guardrails, tools, RAG, evals, tracing, approvals e uma Safe Agent API executável.
+Guardrails, tools, approvals, audit correlation, RAG, evals e uma Safe Agent API executável.
 </td>
 </tr>
 <tr>
@@ -89,8 +103,8 @@ Knowledge base + projetos de GitHub API, GitHub Apps, MCP security e SaaS securi
 
 | Projeto | Stack | O que prova |
 |---|---|---|
-| [SaaS Tenant Dashboard](https://github.com/Videirafo/SaaS-Engineering-Playbook/tree/main/examples/saas-tenant-dashboard) | Next.js · React · TypeScript | tenant routing + build |
-| [Safe Agent API](https://github.com/Videirafo/AI-Agent-Production-Checklist/tree/main/examples/safe-agent-api) | FastAPI · pytest | policy + approval + tenant isolation |
+| [SaaS Tenant Dashboard](https://github.com/Videirafo/SaaS-Engineering-Playbook/tree/main/examples/saas-tenant-dashboard) | Next.js · React · TypeScript | tenant routing + build + Docker |
+| [Safe Agent API](https://github.com/Videirafo/AI-Agent-Production-Checklist/tree/main/examples/safe-agent-api) | FastAPI · pytest | policy + approval + audit correlation + tenant isolation |
 | [Booking Reference System](https://github.com/Videirafo/System-Modeling-Starter/tree/main/examples/booking-reference-system) | FastAPI · Mermaid | requisito → API → teste |
 | [GitHub Repo Health Auditor](https://github.com/Videirafo/Fernando_Videira/tree/main/projects/github-repo-health-auditor) | Python · GitHub REST API | repo audit + reports |
 | [RepoGuard GitHub App](https://github.com/Videirafo/Fernando_Videira/tree/main/projects/repoguard-github-app) | Node.js · GitHub Apps | webhooks + HMAC + app auth |
