@@ -24,6 +24,16 @@ REQUIREMENTS → ARCHITECTURE → BUILD → TEST → REVIEW → SHIP → OBSERVE
 
 Os dois projetos são **MIT**, têm CI/CodeQL visíveis e podem ser executados localmente sem credenciais privadas. Issues, testes e contribuições úteis são bem-vindos.
 
+**Quer ajudar sem escrever código?** Rode um dos projetos e relate a experiência de setup:
+
+- [Testar a Safe Agent API e enviar feedback](https://github.com/Videirafo/AI-Agent-Production-Checklist/issues/17)
+- [Testar o SaaS Tenant Dashboard e enviar feedback](https://github.com/Videirafo/SaaS-Engineering-Playbook/issues/20)
+
+**Quer fazer um primeiro PR?** Há tarefas pequenas e isoladas:
+
+- [Good first issue · JSONL audit sink](https://github.com/Videirafo/AI-Agent-Production-Checklist/issues/16)
+- [Good first issue · tenant-context contract tests](https://github.com/Videirafo/SaaS-Engineering-Playbook/issues/19)
+
 ## Engenharia
 
 Foco atual:
