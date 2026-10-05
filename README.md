@@ -10,6 +10,14 @@ Estudante de **Engenharia de Software** construindo produtos reais com código, 
 
 **Criador de:** MarcaIA · FitCore · ALMA · Pink · Videira MCP
 
+## Build in public
+
+Além do código, documento a evolução real dos produtos: decisões de arquitetura, IA aplicada, deploys, testes, erros, correções e aprendizados de Engenharia de Software.
+
+- **Instagram:** [@videirafo](https://www.instagram.com/videirafo/) — bastidores, progresso e construção em público.
+- **GitHub:** este perfil é o proof-of-work técnico: código executável, CI, CodeQL, issues, PRs e documentação.
+- **Objetivo:** transformar aprendizado acadêmico em produtos reais, verificáveis e úteis.
+
 <p align="center">
   <a href="https://www.instagram.com/videirafo/"><img alt="Instagram @videirafo" src="https://img.shields.io/badge/Instagram-@videirafo-111111?logo=instagram&logoColor=white"></a>
   <a href="https://github.com/Videirafo"><img alt="GitHub @Videirafo" src="https://img.shields.io/badge/GitHub-@Videirafo-111111?logo=github&logoColor=white"></a>
