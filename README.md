@@ -2,13 +2,34 @@
 
 # Fernando Videira
 
-**Software Engineering · SaaS · AI Agents · Full Stack · DevOps**
+**Engenharia de Software (2º/8) · Vibe Coder · AI Builder · SaaS · AI Agents**
 
-Construo e evoluo produtos digitais conectando **produto, arquitetura, código, dados, segurança, infraestrutura e operação**.
+> ⚡ **Da faculdade para produção.**
+
+Estudante de **Engenharia de Software** construindo produtos reais com código, IA e engenharia disciplinada — da ideia à arquitetura, testes, deploy, observabilidade e evolução.
+
+**Criador de:** MarcaIA · FitCore · ALMA · Pink · Videira MCP
+
+<p align="center">
+  <a href="https://www.instagram.com/videirafo/"><img alt="Instagram @videirafo" src="https://img.shields.io/badge/Instagram-@videirafo-111111?logo=instagram&logoColor=white"></a>
+  <a href="https://github.com/Videirafo"><img alt="GitHub @Videirafo" src="https://img.shields.io/badge/GitHub-@Videirafo-111111?logo=github&logoColor=white"></a>
+</p>
 
 ```text
-REQUIREMENTS → ARCHITECTURE → BUILD → TEST → REVIEW → SHIP → OBSERVE → IMPROVE
+IDEIA → REQUISITOS → ARQUITETURA → BUILD → TEST → REVIEW → SHIP → OBSERVE → IMPROVE
 ```
+
+## Produtos que estou construindo
+
+| Produto | Foco | Exposição pública |
+|---|---|---|
+| **MarcaIA** | SaaS multi-tenant, CRM, agenda, atendimento e IA | produto e código privados; cases e evolução sanitizados |
+| **[FitCore](https://github.com/Videirafo/fitcore-pro)** | gestão fitness, treino e inteligência de execução | repositório público |
+| **ALMA** | automação, white-label e inteligência operacional | código privado; arquitetura e aprendizados públicos |
+| **Pink** | IA para conteúdo, experimentação e distribuição social | código privado; resultados e engenharia sanitizados |
+| **Videira MCP** | agentes, controle remoto, execução governada e MCP | código privado; conceitos e evidências sem segredos |
+
+> Projetos privados permanecem privados por design. O perfil público mostra engenharia verificável sem expor credenciais, clientes, infraestrutura sensível ou código proprietário.
 
 ## Comece pelos projetos executáveis
 
