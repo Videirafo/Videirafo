@@ -39,19 +39,25 @@ IDEIA → REQUISITOS → ARQUITETURA → BUILD → TEST → REVIEW → SHIP → 
 
 > Projetos privados permanecem privados por design. O perfil público mostra engenharia verificável sem expor credenciais, clientes, infraestrutura sensível ou código proprietário.
 
-## Comece pelos projetos executáveis
+## Proof of work público
 
-| Projeto | Build público | O que demonstra |
+O foco aqui é mostrar software que pode ser aberto, executado e verificado — não apenas listar tecnologias.
+
+| Projeto | Prova executável | O que demonstra |
 |---|---|---|
-| **[AI Agent Production Checklist](https://github.com/Videirafo/AI-Agent-Production-Checklist)** | [![Safe Agent API](https://github.com/Videirafo/AI-Agent-Production-Checklist/actions/workflows/example-safe-agent.yml/badge.svg?branch=main)](https://github.com/Videirafo/AI-Agent-Production-Checklist/actions/workflows/example-safe-agent.yml) | policy → approval → execution → audit → correlation, tenant isolation, FastAPI, pytest, Docker |
-| **[SaaS Engineering Playbook](https://github.com/Videirafo/SaaS-Engineering-Playbook)** | [![SaaS Starter](https://github.com/Videirafo/SaaS-Engineering-Playbook/actions/workflows/example-saas.yml/badge.svg?branch=main)](https://github.com/Videirafo/SaaS-Engineering-Playbook/actions/workflows/example-saas.yml) | Next.js, React, TypeScript, multi-tenancy, health check, production build, Docker |
+| **[Vertical SaaS Radar](https://github.com/Videirafo/vertical-Saas-radar)** | **[Live Radar](https://vertical-saas-radar.onrender.com/)** · CI · CodeQL · live smoke | product intelligence, scoring determinístico, APIs, automação semanal e extensão VS Code |
+| **[AI Agent Production Checklist](https://github.com/Videirafo/AI-Agent-Production-Checklist)** | **[Safe Agent Playground](https://safe-agent-playground.onrender.com/)** · CI · CodeQL · Docker | policy, approval, tenant isolation, tool calling, audit e segurança de agentes |
+| **[SaaS Forge UI](https://github.com/Videirafo/saas-forge-ui)** | **[Live Catalog](https://videirafo.github.io/saas-forge-ui/)** · CI · GitHub Pages | React, TypeScript, acessibilidade, responsive UX e componentes SaaS orientados a produto |
+| **[SaaS Engineering Playbook](https://github.com/Videirafo/SaaS-Engineering-Playbook)** | projeto executável · CI · CodeQL · Docker | Next.js, multi-tenancy, arquitetura, segurança, testes e production readiness |
+| **[FitCore Pro](https://github.com/Videirafo/fitcore-pro)** | repositório público do produto | arquitetura fitness, Next.js, Node.js, Flutter, PostgreSQL, Redis e integração com wger |
 
 <p align="center">
+  <a href="https://github.com/Videirafo/vertical-Saas-radar"><img alt="Vertical SaaS Radar stars" src="https://img.shields.io/github/stars/Videirafo/vertical-Saas-radar?style=social"></a>
   <a href="https://github.com/Videirafo/AI-Agent-Production-Checklist"><img alt="AI Agent stars" src="https://img.shields.io/github/stars/Videirafo/AI-Agent-Production-Checklist?style=social"></a>
-  <a href="https://github.com/Videirafo/SaaS-Engineering-Playbook"><img alt="SaaS Playbook stars" src="https://img.shields.io/github/stars/Videirafo/SaaS-Engineering-Playbook?style=social"></a>
+  <a href="https://github.com/Videirafo/saas-forge-ui"><img alt="SaaS Forge UI stars" src="https://img.shields.io/github/stars/Videirafo/saas-forge-ui?style=social"></a>
 </p>
 
-Os dois projetos são **MIT**, têm CI/CodeQL visíveis e podem ser executados localmente sem credenciais privadas. Issues, testes e contribuições úteis são bem-vindos.
+Os repositórios públicos existem para demonstrar engenharia verificável sem publicar código proprietário, credenciais, dados de clientes ou infraestrutura sensível. Projetos privados continuam privados por design.
 
 **Quer ajudar sem escrever código?** Rode um dos projetos e relate a experiência de setup:
 
