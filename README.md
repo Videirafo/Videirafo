@@ -200,3 +200,9 @@ Nenhum repositório público deve conter senhas, tokens, `.env` reais, private k
 `Software Engineering` · `SaaS` · `AI Agents` · `GitHub Apps` · `Security` · `DevOps`
 
 </div>
+
+## Laboratório de algoritmos — versão completa
+
+Projeto com **9 algoritmos de ordenação em Python**, testes de até **100.000 números**, **9 vídeos MP4** e **9 animações**: [abrir o laboratório](./projetos/algoritmos_ordenacao_completo/README.md).
+
+Versão acadêmica mais simples: [GitHub Videirafoo](https://github.com/Videirafoo/trabalho_de_implementacao_segundo_periodo).
